@@ -3,12 +3,12 @@
 // tramite due prompt chiedo all'utente di scegliere se pari o dispari 
 
 
-const winCon = prompt('scrivi se pari o dispari');
-// while (winCon != 'pari' || winCon != 'dispari') {
-//     console.log(winCon);
-//     prompt('scrivi se pari o dispari');
-    
-// }
+let winCon = prompt('scrivi se pari o dispari'); 
+
+// do {
+//     let winCon = prompt('scrivi se pari o dispari');
+// } while (winCon === 'pari' || winCon === 'dispari');
+
 
 const addendoPlayer = Number(prompt('inserisci un numero da 1 a 5'));
 
