@@ -21,8 +21,8 @@ for (let i = parolaEsame.length - 1; i >= 0 ; i--) {
 }
 
 console.log(parolaReverse);
-let confronto = console.log(parola.join(''))
-let confronto2 =console.log(parolaReverse.join(''))
+let confronto = parola.join('');
+let confronto2 = parolaReverse.join('');
 
 if (confronto === confronto2) {
     alert('palindromo!');
