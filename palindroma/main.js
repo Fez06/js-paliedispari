@@ -24,8 +24,9 @@ console.log(parolaReverse);
 
 
 
-if (parola === parolaReverse) {
-    console.log('yesss');
+if (console.log(parola.join('')) === console.log(parolaReverse.join(''))) {
     alert('palindromo!');
-} 
+} else {
+    alert('nope');
+}
 
