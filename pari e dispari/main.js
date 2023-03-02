@@ -11,9 +11,15 @@ let winCon = prompt('scrivi se pari o dispari');
 
 
 const addendoPlayer = Number(prompt('inserisci un numero da 1 a 5'));
+//--------------------ROBA DA PROVARE---------------------------
+// while (pariDispari !== 'pari' && pariDispari !== 'dispari'){
+//     pariDispari = prompt('scegli: "pari" o "dispari"').toLowerCase();
+// };
 
-
-
+// while (numeroUtente > 5 || numeroUtente < 1){
+//     numeroUtente = Number(prompt('scegli un numero da 1 a 5'));
+// };
+//-------------------------------------------------------------
 console.log(winCon);
 console.log(addendoPlayer);
 
@@ -45,7 +51,7 @@ console.log(sommaFinale);
 const esito = pariDispari(sommaFinale);
 console.log(esito);
 
-if (winCon === esito) {
+if (winCon === esito && esito === true) {
     alert('you win');
 } else {
     alert('you lose');
