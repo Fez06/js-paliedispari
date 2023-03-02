@@ -36,7 +36,7 @@ function pariDispari(num){
 
 //creo la const somma finale che unisce le cifre dei due player
 
-const npcAddendo = randomNumber(1,6);
+const npcAddendo = randomNumber(1,5);
 console.log(npcAddendo);
 
 const sommaFinale = addendoPlayer + npcAddendo
